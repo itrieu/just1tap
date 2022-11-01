@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4123F183-8F61-27AE-EA27-294DDE0CC7EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="HOTween">
+      <HintPath>Assets\External\HOTween\Plugins\HOTween.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\External\HOTween\_Demo\HOTweenDemoBrain.cs" />
+    <Compile Include="Assets\Scripts\BaseN.cs" />
+    <Compile Include="Assets\Scripts\ColourScheme.cs" />
+    <Compile Include="Assets\Scripts\Common\ClipData.cs" />
+    <Compile Include="Assets\Scripts\Common\LevelDataMaster.cs" />
+    <Compile Include="Assets\Scripts\Common\UserData.cs" />
+    <Compile Include="Assets\Scripts\EventDelegate.cs" />
+    <Compile Include="Assets\Scripts\ExampleClass.cs" />
+    <Compile Include="Assets\Scripts\GCS.cs" />
+    <Compile Include="Assets\Scripts\Game\Conductor.cs" />
+    <Compile Include="Assets\Scripts\Game\DataLoader.cs" />
+    <Compile Include="Assets\Scripts\Game\DotObject.cs" />
+    <Compile Include="Assets\Scripts\Game\FloorObject.cs" />
+    <Compile Include="Assets\Scripts\Game\Game.cs" />
+    <Compile Include="Assets\Scripts\Game\GameCamera.cs" />
+    <Compile Include="Assets\Scripts\Game\GameEntity.cs" />
+    <Compile Include="Assets\Scripts\Game\GameState\GameStateBase.cs" />
+    <Compile Include="Assets\Scripts\Game\GameState\GameStateInit.cs" />
+    <Compile Include="Assets\Scripts\Game\GameState\GameStateManager.cs" />
+    <Compile Include="Assets\Scripts\Game\GameState\GameStatePause.cs" />
+    <Compile Include="Assets\Scripts\Game\GameState\GameStatePlay.cs" />
+    <Compile Include="Assets\Scripts\Game\GameWorld.cs" />
+    <Compile Include="Assets\Scripts\Game\IngameUI.cs" />
+    <Compile Include="Assets\Scripts\Game\LevelDataMaster.cs" />
+    <Compile Include="Assets\Scripts\Game\LevelLoader.cs" />
+    <Compile Include="Assets\Scripts\Game\Vfx.cs" />
+    <Compile Include="Assets\Scripts\Gameflow\Bootstrap.cs" />
+    <Compile Include="Assets\Scripts\Gameflow\CStateHome.cs" />
+    <Compile Include="Assets\Scripts\Gameflow\CStateInit.cs" />
+    <Compile Include="Assets\Scripts\Gameflow\CStatePlay.cs" />
+    <Compile Include="Assets\Scripts\MD5Hash.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\API.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\APIEvent.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\APIEventList.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\JSONCollection.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\JSONEntry.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\Main.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\Medal.cs" />
+    <Compile Include="Assets\Scripts\Newgrounds\SendString.cs" />
+    <Compile Include="Assets\Scripts\Notification.cs" />
+    <Compile Include="Assets\Scripts\NotificationCenter.cs" />
+    <Compile Include="Assets\Scripts\NotificationTest.cs" />
+    <Compile Include="Assets\Scripts\NotificationType.cs" />
+    <Compile Include="Assets\Scripts\OnNotificationDelegate.cs" />
+    <Compile Include="Assets\Scripts\PropertyReference.cs" />
+    <Compile Include="Assets\Scripts\RC4.cs" />
+    <Compile Include="Assets\Scripts\RealTime.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\BasicCState.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\CState.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\CStateMachine.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\State.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\StateInterface.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\SuperNotification.cs" />
+    <Compile Include="Assets\Scripts\Vibration.cs" />
+    <Compile Include="Assets\Scripts\VibrationActivity.cs" />
+    <Compile Include="Assets\Scripts\VibrationExample.cs" />
+    <Compile Include="Assets\Scripts\scrAPIManager.cs" />
+    <Compile Include="Assets\Scripts\scrBackgroundBars.cs" />
+    <Compile Include="Assets\Scripts\scrBgbar.cs" />
+    <Compile Include="Assets\Scripts\scrCalibrationLine.cs" />
+    <Compile Include="Assets\Scripts\scrCalibrationPlanet.cs" />
+    <Compile Include="Assets\Scripts\scrCalibrationRing.cs" />
+    <Compile Include="Assets\Scripts\scrCalibrationtxtOffset.cs" />
+    <Compile Include="Assets\Scripts\scrCalibrax.cs" />
+    <Compile Include="Assets\Scripts\scrCamera.cs" />
+    <Compile Include="Assets\Scripts\scrConductor.cs" />
+    <Compile Include="Assets\Scripts\scrController.cs" />
+    <Compile Include="Assets\Scripts\scrCountdown.cs" />
+    <Compile Include="Assets\Scripts\scrDisableIfMobile.cs" />
+    <Compile Include="Assets\Scripts\scrDisableIfNoCheat.cs" />
+    <Compile Include="Assets\Scripts\scrDisableIfNotMobile.cs" />
+    <Compile Include="Assets\Scripts\scrFadeInOnAwake.cs" />
+    <Compile Include="Assets\Scripts\scrFailBar.cs" />
+    <Compile Include="Assets\Scripts\scrFireworks.cs" />
+    <Compile Include="Assets\Scripts\scrFlash.cs" />
+    <Compile Include="Assets\Scripts\scrFloor.cs" />
+    <Compile Include="Assets\Scripts\scrGameText.cs" />
+    <Compile Include="Assets\Scripts\scrMaxLevelTracker.cs" />
+    <Compile Include="Assets\Scripts\scrMetronome.cs" />
+    <Compile Include="Assets\Scripts\scrMisc.cs" />
+    <Compile Include="Assets\Scripts\scrOnSpecificBeat.cs" />
+    <Compile Include="Assets\Scripts\scrOptions.cs" />
+    <Compile Include="Assets\Scripts\scrPlanet.cs" />
+    <Compile Include="Assets\Scripts\scrRing.cs" />
+    <Compile Include="Assets\Scripts\scrSfx.cs" />
+    <Compile Include="Assets\Scripts\scrVfx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\External\HOTween\Plugins\HOTween.XML" />
+    <None Include="Assets\External\HOTween\readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
